@@ -3,7 +3,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from pdf_generator import generate_pdf
 from ai_resume_analyzer import analyze_resume
-from data.skills import SKILLS_DATABASE
+from skills import SKILLS_DATABASE
 from ai_answer_evaluator import evaluate_answer
 from ai_question_generator import generate_questions
 import sqlite3
